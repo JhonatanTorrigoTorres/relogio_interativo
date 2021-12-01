@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+header{
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+section{
+    background-color:rgba(240, 255, 255, 0.74); 
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
+#cumprimento{
+    font-size: 30px;
+}
+#imagem{
+    margin: 20px;
+}
