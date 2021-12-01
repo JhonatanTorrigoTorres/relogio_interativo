@@ -8,7 +8,7 @@ function carregamento(){
         mensagem.innerHTML = `Agora são ${hora} horas e ${minutos} minutos. Bom dia!`;
         img.src = './img/manha.png';
         document.body.style.background = '#eb8378'
-    } else if (hora >= 12 && hora > 18) {
+    } else if (hora >= 12 && hora < 18) {
         mensagem.innerHTML = `Agora são ${hora} horas e ${minutos} minutos. Boa tarde!`;
         img.src = './img/tarde.png';
         document.body.style.background = '#da5507'
